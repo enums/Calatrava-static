@@ -1,2 +1,2 @@
 cd ../
-lldb ./.build/debug/Calatrava
+lldb ./.build/debug/Calatrava-static
