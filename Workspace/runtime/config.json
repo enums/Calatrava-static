@@ -1,0 +1,12 @@
+{
+    "macos_workspace_path": "/Users/enum/Developer/Calatrava-static/Workspace",
+    "workspace_path": "/home/uftp/Calatrava-static/Workspace",
+    
+    "log_path": "runtime/calatrava.log",
+
+    "base_dir": "",
+    "static_dir": "static",
+
+    "port": 9000,
+    "log_debug": false
+}
