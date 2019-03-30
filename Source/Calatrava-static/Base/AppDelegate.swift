@@ -32,4 +32,14 @@ class AppDelegate: PjangoDelegate {
         PJANGO_STATIC_URL = APP_CONFIG.string(forKey: "static") ?? "static"
     }
     
+    func setUrls() -> [String: [PCUrlConfig]]? {
+        
+        return [
+            
+            PJANGO_HOST_DEFAULT: [
+                pjangoUrl("api/monitor", name: "api.monitor", handle: monitorHandle),
+            ],
+        ]
+    }
+    
 }
